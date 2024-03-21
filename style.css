@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+image {
+    cursor: pointer;
+}
+
+/* --------------navbar---------------------------- */
+
+
+.navbar {
+    border: 2px solid red;
+    height: 60px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.lefttop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.picc {
+    width: 40px;
+    height: 40px;
+}
+
+.searchbar {
+    border: 2px solid rgb(78, 78, 78);
+    height: 25px;
+    border-radius: 5px;
+    color: rgb(78, 78, 78);
+}
+
+.sear {
+    border: none;
+}
+/* -------------------sidebar---------------- */
+.sidebar {
+    border: 2px solid black;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+}
+
+.bar1 a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+.design{
+    display: flex;
+}
+.market{
+    display:  flex;
+}
+.devops{
+    display: flex;
+}
+.create {
+    display: flex;
+}
+.folder{
+    display: flex;
+}
+.file{
+    display:  flex;
+}
